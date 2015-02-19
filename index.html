@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<meta charset="utf-8">		
+	<meta name="portfolio" content="Portfolio for G[II]P">
+	<title>Portfolio for G[II]P</title>
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	
+	<link rel="stylesheet" href="css/custom.css">
+			
+	<!-- JS Code -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('section[data-type="parallax_section"]').each(function(){
+			        var $bgobj = $(this); // Variable para asignacion de objeto
+			        $(window).scroll(function() {
+			        	$window = $(window);
+			        	var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+			            // cordinadas del background
+			            var coords = '50% '+ yPos + 'px';
+			            // moviendo el background
+			            $bgobj.css({ backgroundPosition: coords });
+			        });
+			    });
+	});
+
+	</script>
+</head>
+<body>
+	<section id="intro" data-type="parallax_section" data-speed="10">
+		<article>
+			<h2>G[II]P</h2>	
+		</article>
+	</section>
+
+	<section id="about" data-type="parallax_section" data-speed="10">
+		<article>
+			<h2><b>Кои сме ние</b></h2>
+		</article>
+	</section>
+
+	<section id="projects" data-type="parallax_section" data-speed="10">
+		<article>			
+			<h2>С какво се занимаваме</h2>
+		</article>
+	</section>
+
+	<section id="team" data-type="parallax_section" data-speed="10">
+		<article>						
+			<h2>Нашият екип</h2>
+		</article>
+	</section>
+
+	<section id="contact" data-type="parallax_section" data-speed="10">
+		<article>						
+			<h2>За контакти</h2>
+		</article>
+	</section>
+
+
+	<!--ФУТЪР/FOOTER-------------------------------------------------------------------------------------------------->
+		<footer>
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-sm-4">
+						<h6>Проекти:</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Навигация</h6>
+						<ul class="unstyled">
+							<li><a href="#">За нас</a></li>
+							<li><a href="#">Проекти</a></li>
+							<li><a href="#">Контакти</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Контакти:</h6>
+						<ul class="unstyled">
+							<li><a href="#">dobrishinov@gmail.com</a></li>
+							<li><a href="#">ilko@gmail.com</a></li>
+							<li><a href="#">ivailo@gmail.com</a></li>
+							<li><a href="#">preslav@gmail.com</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Последвай ни:</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2015 GIIP</h6>
+						<h7>Дизайн от Добришинов</h7>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+		<!--КРАЙ ФУТЪР/END FOOTER-------------------------------------------------------------------------------------------------->
+
+		
+		
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="js/script.js"></script>
+	
+
+</body>
+</html>

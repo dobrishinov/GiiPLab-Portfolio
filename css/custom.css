@@ -1,0 +1,109 @@
+
+*, html {
+margin: 0px;
+padding: 0px;
+}
+
+h2 {
+color: #fff;
+font-family: helvetica;
+text-align: center;
+}
+
+#intro {
+background: url(../images/bg_1.jpg) 50% 0 no-repeat fixed;
+min-height: 700px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+box-shadow: 0 0 20px rgba(0,0,0,0.4);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#about {
+background: url(../images/bg_2.jpg) 50% 0 no-repeat fixed;
+min-height: 700px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+box-shadow: 0 0 20px rgba(0,0,0,0.4);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#projects {
+background: url(../images/bg_3.jpg) 50% 0 no-repeat fixed;
+min-height: 700px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+box-shadow: 0 0 20px rgba(0,0,0,0.4);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#team {
+background: url(../images/middle.png) 50% 0 repeat fixed;
+min-height: 700px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+box-shadow: 0 0 20px rgba(0,0,0,0.4);
+-webkit-background-size: auto;
+-moz-background-size: auto;
+-o-background-size: auto;
+background-size: auto;
+}
+
+#contact {
+background: url(../images/bg_5.jpg) 50% 0 no-repeat fixed;
+min-height: 700px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+box-shadow: 0 0 20px rgba(0,0,0,0.4);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+article {
+padding: 100px;
+}
+
+
+
