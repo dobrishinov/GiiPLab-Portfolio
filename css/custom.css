@@ -107,19 +107,8 @@ padding: 100px;
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
 border: solid 2px #fff;
-color: #6daaff;
+color: #3A3A3A;
 background: #fff;
-}
-a, a:hover, a:focus, a:active, a.active {
-outline: 0;
-color: #3890d0;
-}
-a:hover, a:focus {
-color: #18bc9c;
-text-decoration: underline;
-}
-a:active, a:hover {
-outline: 0;
 }
 .btn-social {
 display: inline-block;
